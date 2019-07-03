@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style: none; /* remove bullets */
+    background-color: #4a4a4f; /* display background in charcoal */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block; /* display next to each other */
+    margin-left: 2.5%;
+}
+
+/* style individual anchor tags */
+nav a {
+    text-decoration: none;     /* remove underlines */
+    color: #ffffff;         /* set default text in white */
+    display: block;        /* display anchor tags as block elements */
+}
+
+nav a:hover {
+    background-color: #ffffff; /* white when hovering over a list item */
+    font-color: #4a4a4f;    /* charcoal */
+    
+}
+.card {
+    float: left; /* make cards appear in a single row */
+    width: 20%;
+    margin-left: 10%;
+}
+
+.card a {
+    text-align: center;
+}
+
+img {
+    width: 100%; /* 100% of the container - not the screen */
+}
+
+h1 {
+    text-align: center;
+}
